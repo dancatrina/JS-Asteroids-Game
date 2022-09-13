@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>ASTEROIDS - GAME</title>
+
+        <link rel = "stylesheet" href = "Style.css">
+
+    </head>
+
+    <body>
+        <div id = "sc"></div>
+        <div id="pdiv">
+            <label for="njucator">Nume</label>
+            <input type ="text" id="njucator" name="njucator">
+            <button type ="button" id="btnStart" onclick="onPlay()">Play</button>
+        </div>
+
+        <canvas id="gCanvas" width="500" height="500" onresize="onResize()"></canvas>      
+        
+
+
+    </body>
+    <script src ="CoreBuild.js"></script> 
+</html>
